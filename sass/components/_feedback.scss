@@ -1,0 +1,46 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Feedback css Start
+=========================================================*/
+#feedback{
+    padding: 100px 0;
+    .feedback_heading_row{
+        text-align: center;
+        h2{
+            @include fs($b1,46px,300);
+            strong{
+                font-weight: 700;
+            }
+        }
+    }
+    .feedback_body_row{
+        margin-top: 80px;
+        .feedback_item{
+            text-align: center;
+            .image{
+                text-align: center;
+                img{
+                    width: 100%;
+                    max-width: 80%;
+                }
+            }
+            .text{
+                max-width: 90%;
+                margin: 0 auto;
+                h3{
+                    @include fs($b1,22px,700);
+                    margin-top: 30px;
+                }
+                p{
+                    @include fs($b1,16px,300);
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+/*=========================================================
+                    Feedback css end
+=========================================================*/

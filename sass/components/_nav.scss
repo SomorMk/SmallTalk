@@ -1,0 +1,60 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                     Nav css Start
+=========================================================*/
+.navbar{
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: transparent;
+    transition: all linear .3s;
+
+    #navbarSupportedContent{
+        transition: all linear .3s;
+        .nav_X{
+            display: none;
+        }
+        .navbar-nav{
+            .nav-item{
+                margin-left: 50px;
+                .nav-link{
+                    @include fs($b1,14px,700);
+                    i{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .signInBtn{
+            padding: 8px 15px;
+            background: transparent;
+            border: 2px solid $b1;
+            border-radius: 20px;
+            @include fs($b1,14px,700);
+            margin-left: 50px;
+            transition: all linear .3s;
+            &:hover{
+                background: $b1;
+                color: $w;
+                border-color: $b1;
+            }
+        }
+    }
+}
+.menu_fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: rgba(176, 233, 255, 0.811);
+    transition: all linear .3s;
+}
+/*=========================================================
+                     Nav css end
+=========================================================*/
