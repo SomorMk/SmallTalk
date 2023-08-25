@@ -1,0 +1,346 @@
+@media (min-width: 1400px) {}
+
+@media (min-width: 1311px) and (max-width: 1399.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1310.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #banner .banner_row .banner_right img {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar #navbarSupportedContent .navbar-nav .nav-item {
+        margin-left: 10px;
+    }
+    .navbar #navbarSupportedContent .signInBtn {
+        margin-left: 15px;
+    }
+
+
+
+
+    #banner .banner_row .banner_right img {
+        max-width: 80%;
+    }
+    #banner .banner_row {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+
+
+
+    #feedback {
+        padding: 100px 0 0;
+    }
+    #feedback .feedback_heading_row h2 strong {
+        display: block;
+    }
+    #feedback .feedback_body_row .feedback_item {
+        margin-bottom: 50px;
+    }
+
+
+
+
+    #partner .partner_body_row .partner_item{
+        text-align: center;
+    }
+    #partner .partner_body_row .partner_item img {
+        width: 100%;
+        max-width: 200px;
+    }
+    #partner {
+        padding: 0px 0 70px;
+    }
+
+
+
+    
+    #footer .one {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar #navbarSupportedContent {
+        background: #5870f5;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .navbar #navbarSupportedContent .signInBtn {
+        margin-left: 0;
+        margin-top: 110px;
+        color: #fff;
+        border-color: #fff;
+    }
+    .navbar #navbarSupportedContent .nav_X{
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        display: block;
+    }
+    .navbar #navbarSupportedContent .nav_X svg{
+        color: #fff !important;
+        font-size: 20px;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        color: #fff;
+    }
+
+
+
+
+
+    #banner .banner_row .banner_right img {
+        max-width: 100%;
+    }
+    #banner .banner_row .banner_left h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    #banner .banner_row .banner_left p {
+        font-size: 15px;
+        text-align: center;
+    }
+    #banner .banner_row {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+
+
+
+    #feedback {
+        padding: 100px 0 0px;
+    }
+    #feedback .feedback_heading_row h2 {
+        font-size: 40px;
+    }
+    #feedback .feedback_heading_row h2 strong {
+        display: block;
+    }
+    #feedback .feedback_body_row .feedback_item .text p {
+        font-size: 14px;
+    }
+    #feedback .feedback_body_row .feedback_item {
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+    #benefits .benefits_heading_row h2 {
+        font-size: 40px;
+    }
+    #benefits .benefits_body_row {
+        margin-top: 66px;
+    }
+    #benefits .benefits_body_row .benefits_item p {
+        width: 80%;
+        font-size: 15px;
+    }
+
+
+
+
+    #partner {
+        padding: 0px 0 70px;
+    }
+    #partner .partner_body_row .partner_item img {
+        max-width: 200px;
+        text-align: center;
+    }
+    #partner .partner_body_row .partner_item{
+        text-align: center;
+    }
+
+
+
+
+    #footer {
+        padding: 50px 0 15px;
+    }
+    #footer .footer_left {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    #footer .footer_left h6 {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    #footer .footer_left p {
+        display: none;
+    }
+    #footer .one {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar #navbarSupportedContent {
+        background: #5870f5;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .navbar #navbarSupportedContent .signInBtn {
+        margin-left: 0;
+        margin-top: 110px;
+        color: #fff;
+        border-color: #fff;
+    }
+    .navbar #navbarSupportedContent .nav_X{
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        display: block;
+    }
+    .navbar #navbarSupportedContent .nav_X svg{
+        color: #fff !important;
+        font-size: 20px;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        color: #fff;
+    }
+    
+
+
+
+
+    #banner .banner_row .banner_right img {
+        max-width: 100%;
+    }
+    #banner {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    #banner .banner_row .banner_left h1 {
+        font-size: 30px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .disable{
+        display: none !important;
+    }
+    #banner .banner_row .banner_left p {
+        font-size: 14px;
+        text-align: center;
+    }
+    #banner .banner_row .banner_left{
+        text-align: center;
+    }
+    .com_btn {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    #banner .banner_row .banner_left .banner_btn {
+        margin-top: 35px;
+    }
+
+
+
+
+    #feedback {
+        padding: 60px 0 0;
+    }
+    #feedback .feedback_heading_row h2 {
+        font-size: 25px;
+    }
+    #feedback .feedback_heading_row h2 strong {
+        display: inline-block;
+    }
+    #feedback .feedback_body_row .feedback_item .image img {
+        max-width: 40%;
+    }
+    #feedback .feedback_body_row .feedback_item {
+        margin-bottom: 50px;
+    }
+    #feedback .feedback_body_row .feedback_item .text p {
+        font-size: 14px;
+    }
+
+
+
+
+    #benefits .benefits_heading_row h2 {
+        font-size: 25px;
+    }
+    #benefits .benefits_heading_row h2 {
+        font-size: 25px;
+    }
+    #benefits .benefits_body_row {
+        margin-top: 65px;
+    }
+    #benefits .benefits_body_row .benefits_item p {
+        font-size: 14px;
+    }
+    #benefits .benefits_body_row .benefits_item {
+        height: 110px;
+    }
+
+
+
+
+
+    #partner {
+        padding: 10px 0 50px;
+    }
+    #partner .partner_heading_row h2 {
+        font-size: 25px;
+    }
+
+
+
+
+    #footer {
+        padding: 50px 0 15px;
+    }
+    #footer .footer_left {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    #footer .footer_left h6 {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    #footer .footer_left p {
+        display: none;
+    }
+    #footer .footer_nav .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #footer .footer_nav .flex li {
+        width: 50%;
+    }
+    #footer .one{
+        text-align: center;
+    }
+    #footer .footer_nav{
+        margin-bottom: 30px;
+    }
+}

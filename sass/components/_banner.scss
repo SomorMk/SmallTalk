@@ -1,0 +1,52 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Banner css Start
+=========================================================*/
+#banner{
+    min-height: 100vh;
+    background: radial-gradient(rgba(176, 233, 255, 0.811), $w);
+
+    .banner_row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+
+        .banner_left{
+            h1{
+                strong{
+                    font-weight: 700;
+                    display: block;
+                }
+                @include fs($b1,48px,300);
+                line-height: 70px;
+            }
+            p{
+                @include fs($b1,18px,300);
+                line-height: 30px;
+                margin-top: 20px;
+            }
+            .banner_btn{
+                margin-top: 50px;
+            }
+        }
+
+        .banner_right{
+            text-align: center;
+            position: relative;
+            img{
+                // position: absolute;
+                // top: 50%;
+                // left: 50%;
+                // transform: translate(-50%,-50%);
+                max-width: 600px;
+            }
+        }
+    }
+}
+/*=========================================================
+                    Banner css end
+=========================================================*/

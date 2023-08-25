@@ -1,0 +1,33 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Partner css Start
+=========================================================*/
+#partner{
+    padding: 60px 0 100px;
+
+    .partner_heading_row{
+        text-align: center;
+        h2{
+            @include fs($b1,46px,300);
+            strong{
+                font-weight: 700;
+            }
+        }
+    }
+    .partner_body_row{
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+        .partner_item{
+            img{
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    }
+}
+/*=========================================================
+                    Partner css end
+=========================================================*/

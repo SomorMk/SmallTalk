@@ -1,0 +1,59 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Footer css Start
+=========================================================*/
+#footer{
+    padding: 50px 0 80px;
+    background: #212121;
+
+    .footer_left{
+        h6{
+            @include fs($w,16px,300);
+            margin-top: 30px;
+        }
+        p{
+            @include fs($w,14px,400);
+            opacity: .5;
+            margin-top: 30px;
+        }
+    }
+
+    .footer_nav{
+        h5{
+            @include fs($w,16px,500);
+            margin-bottom: 20px;
+        }
+        ul{
+            li{
+                margin-bottom: 5px;
+                a{
+                    @include fs($w,12px,100);
+                    transition: all linear .3s;
+                    &:hover{
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+    .footer_social_nav{
+        ul{
+            li{
+                a{
+                    padding-left: 30px;
+                    position: relative;
+                    svg{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+/*=========================================================
+                    Footer css end
+=========================================================*/

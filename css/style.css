@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+.com_btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 40px;
+  border-radius: 30px;
+  background: #0A0812;
+  border: 2px solid #0A0812;
+  transition: all linear 0.3s;
+}
+.com_btn:hover {
+  background: #fff;
+  color: #0A0812;
+}
+
+.floating_btn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 40px;
+  background: #5870f5;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 0 10px #5870f5;
+  transition: all linear 0.3s;
+}
+.floating_btn:hover {
+  opacity: 0.7;
+}
+
+/*=========================================================
+                    Common css end
+=========================================================*/
+/*=========================================================
+                     Nav css Start
+=========================================================*/
+.navbar {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: transparent;
+  transition: all linear 0.3s;
+}
+.navbar #navbarSupportedContent {
+  transition: all linear 0.3s;
+}
+.navbar #navbarSupportedContent .nav_X {
+  display: none;
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item {
+  margin-left: 50px;
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+  color: #0A0812;
+  font-size: 14px;
+  font-weight: 700;
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link i {
+  font-size: 10px;
+}
+.navbar #navbarSupportedContent .signInBtn {
+  padding: 8px 15px;
+  background: transparent;
+  border: 2px solid #0A0812;
+  border-radius: 20px;
+  color: #0A0812;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 50px;
+  transition: all linear 0.3s;
+}
+.navbar #navbarSupportedContent .signInBtn:hover {
+  background: #0A0812;
+  color: #fff;
+  border-color: #0A0812;
+}
+
+.menu_fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: rgba(176, 233, 255, 0.811);
+  transition: all linear 0.3s;
+}
+
+/*=========================================================
+                     Nav css end
+=========================================================*/
+/*=========================================================
+                    Banner css Start
+=========================================================*/
+#banner {
+  min-height: 100vh;
+  background: radial-gradient(rgba(176, 233, 255, 0.811), #fff);
+}
+#banner .banner_row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+#banner .banner_row .banner_left h1 {
+  color: #0A0812;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 70px;
+}
+#banner .banner_row .banner_left h1 strong {
+  font-weight: 700;
+  display: block;
+}
+#banner .banner_row .banner_left p {
+  color: #0A0812;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 20px;
+}
+#banner .banner_row .banner_left .banner_btn {
+  margin-top: 50px;
+}
+#banner .banner_row .banner_right {
+  text-align: center;
+  position: relative;
+}
+#banner .banner_row .banner_right img {
+  max-width: 600px;
+}
+
+/*=========================================================
+                    Banner css end
+=========================================================*/
+/*=========================================================
+                    Feedback css Start
+=========================================================*/
+#feedback {
+  padding: 100px 0;
+}
+#feedback .feedback_heading_row {
+  text-align: center;
+}
+#feedback .feedback_heading_row h2 {
+  color: #0A0812;
+  font-size: 46px;
+  font-weight: 300;
+}
+#feedback .feedback_heading_row h2 strong {
+  font-weight: 700;
+}
+#feedback .feedback_body_row {
+  margin-top: 80px;
+}
+#feedback .feedback_body_row .feedback_item {
+  text-align: center;
+}
+#feedback .feedback_body_row .feedback_item .image {
+  text-align: center;
+}
+#feedback .feedback_body_row .feedback_item .image img {
+  width: 100%;
+  max-width: 80%;
+}
+#feedback .feedback_body_row .feedback_item .text {
+  max-width: 90%;
+  margin: 0 auto;
+}
+#feedback .feedback_body_row .feedback_item .text h3 {
+  color: #0A0812;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+#feedback .feedback_body_row .feedback_item .text p {
+  color: #0A0812;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+/*=========================================================
+                    Feedback css end
+=========================================================*/
+/*=========================================================
+                    Benefits css Start
+=========================================================*/
+#benefits {
+  padding: 50px 0;
+}
+#benefits .benefits_heading_row {
+  text-align: center;
+}
+#benefits .benefits_heading_row h2 {
+  color: #0A0812;
+  font-size: 46px;
+  font-weight: 300;
+}
+#benefits .benefits_heading_row h2 strong {
+  font-weight: 700;
+}
+#benefits .benefits_body_row {
+  margin-top: 100px;
+}
+#benefits .benefits_body_row .benefits_item {
+  height: 130px;
+  background: #fff;
+  box-shadow: 0 0 50px 2px rgba(88, 112, 245, 0.2);
+  border-radius: 30px;
+  position: relative;
+  margin-bottom: 30px;
+}
+#benefits .benefits_body_row .benefits_item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+  color: #0A0812;
+  font-size: 18px;
+  font-weight: 300;
+}
+#benefits .benefits_body_row .benefits_item p span {
+  font-weight: 700;
+}
+
+/*=========================================================
+                    Benefits css end
+=========================================================*/
+/*=========================================================
+                    Partner css Start
+=========================================================*/
+#partner {
+  padding: 60px 0 100px;
+}
+#partner .partner_heading_row {
+  text-align: center;
+}
+#partner .partner_heading_row h2 {
+  color: #0A0812;
+  font-size: 46px;
+  font-weight: 300;
+}
+#partner .partner_heading_row h2 strong {
+  font-weight: 700;
+}
+#partner .partner_body_row {
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+#partner .partner_body_row .partner_item img {
+  width: 100%;
+  max-width: 300px;
+}
+
+/*=========================================================
+                    Partner css end
+=========================================================*/
+/*=========================================================
+                    Footer css Start
+=========================================================*/
+#footer {
+  padding: 50px 0 80px;
+  background: #212121;
+}
+#footer .footer_left h6 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+#footer .footer_left p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-top: 30px;
+}
+#footer .footer_nav h5 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#footer .footer_nav ul li {
+  margin-bottom: 5px;
+}
+#footer .footer_nav ul li a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+  transition: all linear 0.3s;
+}
+#footer .footer_nav ul li a:hover {
+  opacity: 0.5;
+}
+#footer .footer_social_nav ul li a {
+  padding-left: 30px;
+  position: relative;
+}
+#footer .footer_social_nav ul li a svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*=========================================================
+                    Footer css end
+=========================================================*//*# sourceMappingURL=style.css.map */

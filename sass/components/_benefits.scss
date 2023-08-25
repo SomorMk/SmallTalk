@@ -1,0 +1,45 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Benefits css Start
+=========================================================*/
+#benefits{
+    padding: 50px 0;
+
+    .benefits_heading_row{
+        text-align: center;
+        h2{
+            @include fs($b1,46px,300);
+            strong{
+                font-weight: 700;
+            }
+        }
+    }
+    .benefits_body_row{
+        margin-top: 100px;
+        .benefits_item{
+            height: 130px;
+            background: $w;
+            box-shadow: 0 0 50px 2px rgba(88, 112, 245, 0.2);
+            border-radius: 30px;
+            position: relative;
+            margin-bottom: 30px;
+            p{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width: 90%;
+                text-align: center;
+                @include fs($b1,18px,300);
+                span{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+/*=========================================================
+                    Benefits css end
+=========================================================*/
